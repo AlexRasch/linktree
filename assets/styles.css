@@ -39,10 +39,9 @@ a {
 }
 
 .image-container {
-    height: 120px;
-    width: 100px;
-    border-radius: 48px;
-    overflow: hidden;
+    height: 280px;
+    width: 220px;
+    border-radius: 40px;
 }
 
 .image-container img{
