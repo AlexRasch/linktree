@@ -3,8 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById('share-button-url').addEventListener('click', fnCopyText);
 
     // Share buttons
-    const shareButtons = document.querySelectorAll('.tile-share-button')
-    shareButtons.forEach(btnShare => btnShare.addEventListener('click', fnCopyText))
+    document.querySelectorAll('.tile-share-button').forEach(btnShare => btnShare.addEventListener('click', fnCopyText))
   });
 
   async function fnCopyText(e){
