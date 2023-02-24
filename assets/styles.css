@@ -72,7 +72,10 @@ a {
     justify-content: space-between;
 }
 
-
+.tile:hover{
+    transform: scale(1.05);
+    transition: cubic-bezier(.07, 1.40, .82, 1.41,) 0.5s;
+}
 
 .icon {
     margin: 4px 8px;
