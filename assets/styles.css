@@ -29,6 +29,20 @@ a {
     color: rgb(240, 240, 240);
 }
 
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+
+}
+
+.share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
+    color:rgb(10,10,10);
+}
+
 .container {
     width: 90%;
     max-width: 680px;
@@ -49,13 +63,6 @@ a {
     height: 100%;
 }
 
-.share-button {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: rgb(240, 240, 240);
-}
-
 .tile {
     width: 100%;
     background-color: rgb(37,37,37);
@@ -64,6 +71,8 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .icon {
     margin: 4px 8px;
@@ -77,4 +86,9 @@ a {
     height: 40px;
     border-radius: 20px;
     background-color: rgb(52,52,52);
+}
+
+.tile-share-button svg{
+    margin-left: 12px;
+    margin-top: 10px;
 }
