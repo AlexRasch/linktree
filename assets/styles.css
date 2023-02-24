@@ -40,8 +40,9 @@ a {
 
 .image-container {
     height: 280px;
-    width: 220px;
-    border-radius: 40px;
+    width: 200px;
+    border-radius: 25px;
+    overflow: hidden;
 }
 
 .image-container img{
@@ -62,6 +63,12 @@ a {
     border-radius: 17px;
     display: flex;
     justify-content: space-between;
+}
+
+.icon {
+    margin: 4px 8px;
+    width:44px;
+    height:44px;
 }
 
 .tile-share-button {
